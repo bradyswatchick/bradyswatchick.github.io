@@ -1,0 +1,63 @@
+html{
+	font:normal 16px/1.4 "Segoe UI","Segoe","Trebuchet MS",sans-serif;
+	line-height:1.4;
+	background-color:#333;
+	text-align:justify
+	}
+body{
+	width:90%;
+	min-width:480px;
+	max-width:1000px;
+	margin: 0 auto;
+	font-size:110%;
+	color:#000;
+	background-color:#fff
+	}
+h1,h2,h3,h5,h6{
+	font-weight:bold;
+	margin:0;
+	text-align: left;
+	padding-left: 1rem;
+	}
+h1{
+	font-size:250%;
+	}
+h1{
+	padding-left: 0rem;
+	}
+h4{
+	margin:0;
+	text-align: left;
+	padding-left: 1rem;
+	font-style: italic;
+	}
+a{
+	font-weight:bold;
+	}
+p{
+	text-align: left;
+	padding-left: 1rem;
+	
+	}	
+.site-header{
+	margin:0;
+	padding:1rem;
+	background-color:#708090;
+	color:white;
+	}
+.site-footer{
+	background-color:#708090;
+	font-style:italic;
+	text-align:right;
+	padding:1rem;
+	}
+
+	
+/*Below is code for color transitioning when the user hovers over the deep link*/
+.anchorjs-link:hover {
+  color: #2500AD;
+}
+*:hover > .anchorjs-link {
+  transition: color .25s linear;
+}
+
